@@ -3,4 +3,10 @@ body{
     color: sandybrown;
 }
 
-h1{color: sandybrown}
+h1{
+    color: sandybrown;
+}
+
+p{
+    color: black;
+}
