@@ -4,11 +4,6 @@ body{
     font-family: 'Shadows Into Light', cursive;
 }
 
-h1{
-    color: sandybrown;
-
-}
-
 p{
     color: black;
 }
@@ -23,5 +18,6 @@ ol{
 
 h1{
     color: firebrick;
+    font-size: larger;
 }
 
