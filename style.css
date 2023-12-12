@@ -1,10 +1,12 @@
+/* website styles */
+
 body{
     background-color: salmon;
     color: firebrick;
     font-family: 'Indie Flower', cursive;
     font-size: 16px;
 }
-/* website styles */
+
 
 *{
     font-size: 100%;
@@ -57,6 +59,7 @@ h1, h2, h3, h4{
 
 
 footer p {
+    color: purple;
     font-size: 15px;
 }
 
@@ -65,7 +68,7 @@ section li {
 }
 
 a{
-    color: red;
+    color: purple;
     text-decoration: none;
 }
 
