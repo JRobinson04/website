@@ -129,6 +129,11 @@ img {
     height: 300px;
 }
 
+.image-center {
+    display: block;
+    margin: 0 auto;
+}
+
 
 
 
