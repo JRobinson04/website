@@ -11,7 +11,7 @@ body {
     background-color: salmon;
     color: firebrick;
     font-family: 'Indie Flower', cursive;
-    font-size: 16px;
+    font-size: 18px;
     margin: 50px;
     }
 
@@ -38,21 +38,19 @@ h1 {
     font-style: italic;
     font-size: 50px;
     font-weight: bold;
-    text-align: left;
-    border-bottom: 1px solid black;
 }
 
 header h1 {
     text-align: center;
-    border-bottom: 5px solid grey;
+    border-bottom: 7px solid grey;
 }
 
 .title {
     font-size: 48px;
-    text-decoration: underline;
 }
 
 h2 {
+    text-align: center;
     font-size: 40px;
     font-weight: 700;
     }
@@ -62,6 +60,7 @@ h3 {
 }
 
 h4 {
+    text-align: center;
     font-size: 25px;
 }
 
@@ -74,6 +73,31 @@ h1, h2, h3, h4, h5 {
     font-style: italic;
     margin: 20px;
 }
+
+.ingredients {
+    padding: 20px 10px 30px 50px;  
+}
+
+.directions {
+    padding: 20px 10px 30px 50px;
+}
+
+.ingredient-2 {
+    padding: 30px 20px 40px 80px;
+}
+
+.directions-2 {
+    padding: 30px 20px 40px 80px;
+}
+
+.ingredients-3 {
+    padding: 20px 10px 30px 50px;
+}
+
+.directions-3 {
+    padding: 20px 10px 30px 50px;
+}
+
 
 footer p {
     color: purple;
@@ -98,7 +122,7 @@ header, section, footer {
 }
 
 section {
-    border: 1px dashed red;
+    border: 1px solid grey;
 }
 
 img {
