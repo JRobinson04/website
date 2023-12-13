@@ -1,20 +1,24 @@
 /* website styles */
+* {
+    font-size: 100%;
+    margin: 0;
+    line-height: 1;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
 
 body {
     background-color: salmon;
     color: firebrick;
     font-family: 'Indie Flower', cursive;
     font-size: 16px;
-}
-
-
-* {
-    font-size: 100%;
-}
+    margin: 50px;
+    }
 
 p {
     color: black;
     line-height: 2;
+    margin: 15px 0;
 }
 
 ul {
@@ -25,23 +29,33 @@ ol {
     color: black;
 }
 
+ul, ol {
+    margin: 15px 0;
+}
+
 h1 {
     color: firebrick;
     font-style: italic;
     font-size: 50px;
     font-weight: bold;
     text-align: left;
+    border-bottom: 1px solid black;
 }
 
 header h1 {
     text-align: center;
+    border-bottom: 5px solid grey;
+}
+
+.title {
+    font-size: 48px;
+    text-decoration: underline;
 }
 
 h2 {
     font-size: 40px;
     font-weight: 700;
-    
-}
+    }
 
 h3 {
     font-size: 30px;
@@ -58,9 +72,8 @@ h5 {
 h1, h2, h3, h4, h5 {
     font-weight: 500;
     font-style: italic;
+    margin: 20px;
 }
-
-
 
 footer p {
     color: purple;
@@ -78,6 +91,18 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+header, section, footer {
+    padding: 30px;
+}
+
+section {
+    border: 1px dashed red;
+}
+
+img {
+    height: 300px;
 }
 
 
