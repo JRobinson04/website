@@ -43,6 +43,8 @@ h1 {
 header h1 {
     text-align: center;
     border-bottom: 7px solid grey;
+    background-image: url("images/triangles_pattern.webp");
+    background-repeat: repeat;
 }
 
 .title {
@@ -133,6 +135,34 @@ img {
     display: block;
     margin: 0 auto;
 }
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: block;
+}
+
+.box {
+    background-image: url(file.jpg);
+    width: 100px;
+    height: 100px;
+}
+.banner {
+    height: 250px;
+    background-image: url(images/Recipe\ love.jpg);
+    background-size: 20%;
+    background-repeat: repeat;
+    background-position: centers;
+}
+.banner2 {
+    height: 200px;
+    background-image: url(images/pexels-rdne-stock-project-5737464.jpg);
+    background-size: 30%;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+
 
 
 
