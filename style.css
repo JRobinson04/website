@@ -7,8 +7,20 @@
     /* border: 1px solid red; */
 }
 
+h1 {
+    color: rgb(152, 30, 30);
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 7px solid grey;
+    background-image: url("images/triangles_pattern.webp");
+    background-repeat: repeat;
+}
+
 body {
     background-color: salmon;
+    /* background-color: grey; */
     color: firebrick;
     font-family: 'Indie Flower', cursive;
     font-size: 18px;
@@ -33,41 +45,41 @@ ul, ol {
     margin: 15px 0;
 }
 
-h1 {
-    color: firebrick;
-    font-style: italic;
-    font-size: 50px;
-    font-weight: bold;
-}
-
-header h1 {
-    text-align: center;
-    border-bottom: 7px solid grey;
-    background-image: url("images/triangles_pattern.webp");
-    background-repeat: repeat;
-}
-
 .title {
     font-size: 48px;
 }
 
 h2 {
+    color: rgb(101, 17, 17);
+    background-color: rgb(157, 146, 146);
+    padding: 5px;
     text-align: center;
     font-size: 40px;
     font-weight: 700;
     }
 
 h3 {
-    font-size: 30px;
+    color: rgb(119, 10, 10);
+    background-color: rgb(94, 89, 89);
+    padding: 5px;
+    text-align: center;
+    font-size: 30px
 }
 
 h4 {
+    color: rgb(137, 11, 11);
+    background-color: rgb(103, 103, 103);
+    padding: 6px;
     text-align: center;
-    font-size: 25px;
+    font-size: 27px;
 }
 
 h5 {
-    font-size: 20px;
+    color: rgb(110, 36, 36);
+    background-color: grey;
+    padding: 7px;
+    text-align: center;
+    font-size: 25px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -103,7 +115,9 @@ h1, h2, h3, h4, h5 {
 
 footer p {
     color: purple;
+    background-color: grey;
     font-size: 15px;
+    margin: auto;
 }
 
 section li {
@@ -127,7 +141,14 @@ section {
     border: 1px solid grey;
 }
 
+#section {
+    width: 70%;
+    height: 50%;
+    margin: 0 auto;
+}
+
 img {
+    width: 400px;
     height: 300px;
 }
 
